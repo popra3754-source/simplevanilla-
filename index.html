@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b100d">
+  <meta name="description" content="SimpleVanilla — Minecraft Java Vanilla+ сервер. Присоединяйся к приключениям!">
+  <title>SimpleVanilla — Minecraft Vanilla+</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-grid"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="SimpleVanilla — главная">
+      <span class="brand-icon">S<span>V</span></span>
+      <span>Simple<span class="green">Vanilla</span><small>MINECRAFT SERVER</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#about">О сервере</a>
+      <a href="#features">Возможности</a>
+      <a href="#rules">Правила</a>
+      <a href="#team">Команда</a>
+      <a class="nav-cta" href="#join">Играть <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> VANILLA+ • JAVA EDITION</div>
+        <h1>Твой мир.<br><span>Твои правила.</span></h1>
+        <p class="hero-text">Выживай, строй, исследуй и создавай свою историю вместе с сообществом SimpleVanilla.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#join">Присоединиться <span>→</span></a>
+          <a class="button secondary" href="#about">Узнать о сервере</a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>1.21.11</strong><span>Версия Java</span></div>
+          <div><strong>Vanilla+</strong><span>Стиль игры</span></div>
+          <div><strong>24/7*</strong><span>Доступность</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Пиксельный мир Minecraft">
+        <div class="sun"></div>
+        <div class="mountain mountain-back"></div>
+        <div class="mountain mountain-front"></div>
+        <div class="block block-one"></div><div class="block block-two"></div>
+        <div class="block block-three"></div><div class="block block-four"></div>
+        <div class="tree tree-one"><i></i><b></b></div>
+        <div class="tree tree-two"><i></i><b></b></div>
+        <div class="art-label"><span class="status-dot"></span><span><b>ТВОЁ ПРИКЛЮЧЕНИЕ</b><small>НАЧИНАЕТСЯ ЗДЕСЬ</small></span></div>
+      </div>
+    </section>
+
+    <section class="join-panel section" id="join">
+      <div class="join-intro"><span class="mini-icon">⌁</span><div><h2>Залетай на сервер</h2><p>Скопируй адрес и добавь сервер в Minecraft Java.</p></div></div>
+      <div class="ip-box"><div><small>IP-АДРЕС СЕРВЕРА</small><strong id="serverIp">SimpleVanilla.ru-cc.ru</strong></div><button id="copyIp" class="copy-button">Копировать <span>▣</span></button></div>
+      <div class="copy-feedback" id="copyFeedback" aria-live="polite"></div>
+    </section>
+
+    <section class="section content-section" id="about">
+      <div class="section-heading"><span class="eyebrow">01 / О ПРОЕКТЕ</span><h2>Простая ванилла.<br><span>Больше возможностей.</span></h2></div>
+      <div class="about-grid">
+        <article class="info-card large-card"><div class="card-symbol">▦</div><h3>Выживание без лишнего</h3><p>Исследуй мир, добывай ресурсы, строй базу и развивайся в своём темпе. SimpleVanilla создан для комфортной игры и совместных приключений.</p><span class="card-index">SV / 01</span></article>
+        <article class="info-card"><div class="card-symbol">⌘</div><h3>Vanilla+</h3><p>Знакомая атмосфера Minecraft с дополнительными возможностями сервера.</p><span class="card-index">SV / 02</span></article>
+        <article class="info-card"><div class="card-symbol">◎</div><h3>Своё сообщество</h3><p>Общайся, строй вместе и участвуй в жизни сервера.</p><span class="card-index">SV / 03</span></article>
+      </div>
+    </section>
+
+    <section class="section feature-section" id="features">
+      <div class="section-heading"><span class="eyebrow">02 / ВОЗМОЖНОСТИ</span><h2>Создавай свою<br><span>историю.</span></h2></div>
+      <div class="feature-list">
+        <div class="feature-row"><span class="feature-number">01</span><div><h3>Большой мир для исследования</h3><p>Находи новые места и выбирай, где построить свой дом.</p></div><span class="feature-arrow">↗</span></div>
+        <div class="feature-row"><span class="feature-number">02</span><div><h3>Строй без ограничений фантазии</h3><p>От уютной хижины до целого города — твой проект, твои идеи.</p></div><span class="feature-arrow">↗</span></div>
+        <div class="feature-row"><span class="feature-number">03</span><div><h3>Ивенты и совместная игра</h3><p>Следи за объявлениями проекта, чтобы не пропустить события.</p></div><span class="feature-arrow">↗</span></div>
+      </div>
+    </section>
+
+    <section class="rules-section section" id="rules">
+      <div class="section-heading"><span class="eyebrow">03 / ПРАВИЛА</span><h2>Уважай игроков.<br><span>Береги мир.</span></h2></div>
+      <div class="rules-grid">
+        <div class="rule"><span>01</span><div><h3>Уважение</h3><p>Не оскорбляй других игроков и не устраивай травлю.</p></div></div>
+        <div class="rule"><span>02</span><div><h3>Честная игра</h3><p>Не используй читы и запрещённые способы получения преимущества.</p></div></div>
+        <div class="rule"><span>03</span><div><h3>Чужие постройки</h3><p>Не гриферить и не присваивать чужие вещи.</p></div></div>
+        <div class="rule"><span>04</span><div><h3>Общение</h3><p>Не спамь и не публикуй опасные или оскорбительные материалы.</p></div></div>
+      </div>
+      <p class="note">Это базовый шаблон правил. Перед запуском замени его на утверждённые правила своего сервера.</p>
+    </section>
+
+    <section class="section team-section" id="team">
+      <div class="section-heading"><span class="eyebrow">04 / КОМАНДА</span><h2>Люди за<br><span>проектом.</span></h2></div>
+      <div class="team-card"><div class="avatar">SV</div><div><span class="role">ОСНОВАТЕЛЬ</span><h3>Команда SimpleVanilla</h3><p>Следим за развитием проекта и готовим новые возможности для игроков.</p></div><span class="team-badge">STAFF</span></div>
+      <p class="note">Здесь можно добавить реальные игровые ники администраторов, модераторов и строителей.</p>
+    </section>
+
+    <section class="final-cta section">
+      <div class="cta-glow"></div><span class="eyebrow">ТВОЯ ИСТОРИЯ НАЧИНАЕТСЯ СЕЙЧАС</span><h2>Увидимся <span>в игре.</span></h2><p>Добавляй SimpleVanilla в список серверов и присоединяйся к приключению.</p><a class="button primary" href="#join">Скопировать IP выше ↑</a>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-icon">S<span>V</span></span><span>Simple<span class="green">Vanilla</span><small>MINECRAFT SERVER</small></span></a><span>© <span id="year"></span> SimpleVanilla. Неофициальный Minecraft-проект.</span><a href="#home">Наверх ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
